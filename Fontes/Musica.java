@@ -18,7 +18,7 @@ public class Musica {
 	@Id
 	@Column(name="cd_musica")
 	@GeneratedValue(generator="musica",strategy=GenerationType.SEQUENCE)
-	private int codigo;
+	private int codigoxx;
 	
 	@Column(name="nm_musica", nullable=false, length=100)
 	private String nome;
